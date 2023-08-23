@@ -319,7 +319,7 @@ namespace shadow_syscall {
 					(math::intrin::_xor_(PRIME, (i == 0 ? counter : i)));
 #else
 				for (size_t i{}; i < len; ++i)
-					out = ((out ^ str[i]) + (out & (out ^ (counter + str[i])))) * PRIME;
+					out = str[i] + ((out ^ str[i]) + (counter + i) * str[i]) * (PRIME ^ (i == 0 ? counter : i));
 #endif
 				return out;
 			}
