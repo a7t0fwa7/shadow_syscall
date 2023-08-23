@@ -1,4 +1,4 @@
-// [FAQ] here: ...
+// [FAQ] here: https://github.com/annihilatorq/shadow_syscall
 
 // Creator Discord - @ntraiseharderror, Telegram - https://t.me/ntraiseharderror, Github - https://github.com/annihilatorq.
 // Special thanks to @invers1on and @metafaze :-)
