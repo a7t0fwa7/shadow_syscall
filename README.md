@@ -21,7 +21,7 @@ NTSTATUS status = shadowsyscall(NTSTATUS, NtTerminateProcess, (HANDLE)-1, 0);
 
 ## Documentation
 
-- `hash_ct_shadowsyscall(str)            -> compile-time hash'
+- `hash_ct_shadowsyscall(str)            -> compile-time hash`
 - `hash_rt_shadowsyscall(str)            -> runtime hash`
 - `shadowsyscall(type, export_name, ...) -> syscall function`
 
